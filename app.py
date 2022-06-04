@@ -1,6 +1,6 @@
+"""Pruebas Backend"""
 from flask import Flask, request, redirect
 from persistencia import guardar_pedido
-
 
 app = Flask(__name__)
 
