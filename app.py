@@ -12,4 +12,3 @@ def pizza():
     print(apellido)
     guardar_pedido(nombre,apellido)
     return redirect("http://localhost/naxer/solicita_pedido.html", code=302)
-    
